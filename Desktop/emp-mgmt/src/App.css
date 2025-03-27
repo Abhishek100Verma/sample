@@ -1,0 +1,147 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Login Page Styling */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #3498db, #8e44ad);
+}
+
+.login-box {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.login-box h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-button:hover {
+  background-color: #2980b9;
+}
+
+/* Portal Page Styling */
+.portal-container {
+  max-width: 1000px;
+  margin: 50px auto;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.portal-container h1,
+.portal-container h2 {
+  text-align: center;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.form-container .input {
+  width: 45%;
+}
+
+button {
+  padding: 6px 10px; /* Reduced padding */
+  font-size: 12px;
+  background-color: #38a169; /* Green color */
+  color: white;
+  border: none;
+  border-radius: 3px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  width: 90px; /* Fixed width for compact button */
+  margin-left: 10px; /* Add margin for gap between button and input */
+  text-align: center;
+}
+
+button:hover {
+  background-color: #2f855a; /* Darker green on hover */
+  transform: scale(1.05); /* Slight zoom-in effect on hover */
+}
+
+button:active {
+  transform: scale(0.98); /* Slight zoom-out effect on click */
+}
+
+
+
+/* Employee Table Styling */
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.employee-table th,
+.employee-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.employee-table th {
+  background-color: #f4f4f4;
+}
+
+.edit-button {
+  background-color: #f39c12;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.edit-button:hover {
+  background-color: #e67e22;
+}
+
+.delete-button {
+  background-color: #e74c3c;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}
