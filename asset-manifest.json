@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Emp_mgmt_portal/static/css/main.d25d0cfa.css",
+    "main.js": "/Emp_mgmt_portal/static/js/main.886f552c.js",
+    "static/js/453.67058bdd.chunk.js": "/Emp_mgmt_portal/static/js/453.67058bdd.chunk.js",
+    "index.html": "/Emp_mgmt_portal/index.html",
+    "main.d25d0cfa.css.map": "/Emp_mgmt_portal/static/css/main.d25d0cfa.css.map",
+    "main.886f552c.js.map": "/Emp_mgmt_portal/static/js/main.886f552c.js.map",
+    "453.67058bdd.chunk.js.map": "/Emp_mgmt_portal/static/js/453.67058bdd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d25d0cfa.css",
+    "static/js/main.886f552c.js"
+  ]
+}
